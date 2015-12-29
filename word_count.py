@@ -1,4 +1,4 @@
-file=open("/home/manikanta/words.txt ","r+")
+file=open("/home/prakash/words.txt ","r+")
 wordcount={}
 for word in file.read().split():
     if word not in wordcount:
